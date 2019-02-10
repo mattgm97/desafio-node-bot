@@ -1,0 +1,6 @@
+Detalhes sobre implementação:
+    Nesse projeto foi usado o Express.js, um framework para facilitar o uso do NodeJS.
+    Como banco de dados foi usado o MongoDB através do framework Mongoose.
+    O projeto foi construido de forma onde ele possui alta escalabilidade devido à 
+    compartimentalização de cada end-point. O programa tem uma tolerancia de erros mediana,
+    erros mais comuns são tratados no código, como problemas para consultar o banco ou problemas para salvar dados no mesmo.
