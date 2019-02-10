@@ -1,0 +1,26 @@
+{
+  "name": "Desafio Node bot",
+  "version": "1.0.0",
+  "description": "Desafio para uma entrevista de NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "api",
+    "nodejs"
+  ],
+  "author": "Matheus Germano de Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mongoose": "^5.4.11",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
